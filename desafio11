@@ -1,0 +1,6 @@
+nota = float(input("Digite a nota (0 a 10): "))
+frequencia = float(input("Digite a frequência (%): "))
+if nota >= 7 and frequencia >= 75:
+    print("Aprovado com Sucesso!")
+else:
+    print("Não aprovado")    

@@ -1,0 +1,9 @@
+produto = str(input("Digite o nome do produto: "))
+quantidade = int(input("Digite a quantidade do produto: "))
+preco = float(input("Digite o preço do produto: "))
+total = preco * quantidade
+
+print("Produto:",produto,
+    "\nQuantidade:",quantidade,
+    "\nPreço: ", preco,
+    "\nValor total:", total)

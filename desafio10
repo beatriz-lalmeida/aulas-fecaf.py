@@ -1,0 +1,7 @@
+nota = float(input("Digite a nota (o a 10): "))
+if nota >= 7:
+    print("Aprovado com excelência")
+elif nota >= 5:
+    print("Aprovado")
+else:
+    print("Reprovado")
