@@ -1,0 +1,13 @@
+idade = int(input("Digite a sua idade: "))
+estudante = str(input("Estudante? "))
+empregado = str(input("Empregado? "))
+cadastro = str(input("O cadastro está ativo? "))
+
+if idade <25 and estudante == "sim" and cadastro == "sim":
+    print ("Benefício integral") 
+elif idade <25 and empregado == "sim" or cadastro == "sim":
+    print ("Benefício parcial")
+elif idade >= 25 and cadastro == "sim":
+    print ("Benefício parcial")
+else: 
+    print ("Sem benefício")

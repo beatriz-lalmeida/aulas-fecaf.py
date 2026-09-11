@@ -1,0 +1,15 @@
+idade = int(input("Digite a sua idade: "))
+ingresso = str(input("Possui ingresso? "))
+vip = str(input("É VIP? "))
+horario = int(input("Qual o horário de chegada? "))
+
+if idade <16 and ingresso == "sim":
+    print ("Entrada negada")
+elif ingresso == "sim" and vip == "sim":
+    print ("Entrada VIP")
+elif idade >=16 and ingresso == "sim" and horario >= 22: 
+    print ("Entrada excepcional, sujeita a lateral")
+elif ingresso == "não" or "nao":
+    print ("Entrada negada")
+else:
+    print("Entrada comum")
